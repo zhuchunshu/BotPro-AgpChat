@@ -1,0 +1,17 @@
+{
+    "name" : "进群私聊",
+    "description" : "进群私聊插件，推广利器",
+    "class" : [
+        "Boot"
+    ],
+    "author" : "Inkedus",
+    "url" : "http://node.tax",
+    "version" : 1.2,
+    "post_type" : {
+        "notice" : {
+            "group_increase" :[
+                "Controller\\RunController"
+            ]
+        }
+    }
+}
